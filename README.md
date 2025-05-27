@@ -6,6 +6,14 @@
 
 1. Clonar repositorio dede github.
 2. Ejecutar npm install.
-3. Crear en .development.env y configurar su MONGO_URI
+3. Clonar el archivo ```.env.template``` y renombar la copia a ```.env```
+4. Llenar las variables de entorno defininas en ese archivo
 4. Ejecutar el proyecto
-  ` npm run start:dev `
+  ``` npm run start:dev ```
+5. Reconstuir la base de datos con la ejecucion de las semillas
+  ```http://localhost:3000/api/v2/seed```
+
+
+# Stack usado
+* MongoAtlas
+* Nest
